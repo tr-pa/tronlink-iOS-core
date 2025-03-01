@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author           = 'tronlinkdev'
   s.source           = { :git => 'https://github.com/tr-pa/tronlink-iOS-core.git', :tag => s.version.to_s }
   s.ios.deployment_target = '10.0'
-  s.swift_versions = '6.0'
+  s.swift_versions = '5.9'
 
   s.source_files = 'tronlink-iOS-core/Classes/**/*'
 
