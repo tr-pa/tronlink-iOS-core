@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'tronlink-iOS-core'
-  s.version          = '1.0.1'
+  s.version          = '1.0.0'
   s.summary          = 'tronlink-iOS-core is repo of TronLink'
   s.module_name      = 'TLCore'
 
