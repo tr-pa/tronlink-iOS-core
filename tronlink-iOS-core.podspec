@@ -1,16 +1,16 @@
 
 Pod::Spec.new do |s|
   s.name             = 'tronlink-iOS-core'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'tronlink-iOS-core is repo of TronLink'
   s.module_name      = 'TLCore'
 
   s.homepage         = 'https://github.com/TronLink/tronlink-iOS-core'
   s.license          = { :type => 'Apache', :file => 'LICENSE' }
   s.author           = 'tronlinkdev'
-  s.source           = { :git => 'https://github.com/TronLink/tronlink-iOS-core.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/tr-pa/tronlink-iOS-core.git', :tag => s.version.to_s }
   s.ios.deployment_target = '10.0'
-  s.swift_versions = '4.2'
+  s.swift_versions = '6.0'
 
   s.source_files = 'tronlink-iOS-core/Classes/**/*'
 
