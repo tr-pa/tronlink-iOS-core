@@ -8,17 +8,19 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/TronLink/tronlink-iOS-core'
   s.license          = { :type => 'Apache', :file => 'LICENSE' }
   s.author           = 'tronlinkdev'
-  s.source           = { :git => 'https://github.com/tr-pa/tronlink-iOS-core.git', :tag => s.version.to_s }
-  s.ios.deployment_target = '10.0'
-  s.swift_versions = '5.9'
+  s.source           = { :git => 'https://github.com/TronLink/tronlink-iOS-core.git', :tag => s.version.to_s }
+  s.ios.deployment_target = '11.0'
+  s.swift_versions = '4.2'
 
   s.source_files = 'tronlink-iOS-core/Classes/**/*'
 
-   s.dependency 'gRPC', '1.68.1'
-   s.dependency 'Protobuf', '~> 3.0'
-   s.dependency 'gRPC-Core', '1.68.1'
-   s.dependency 'gRPC-ProtoRPC', '1.68.1'
-   s.dependency 'gRPC-RxLibrary', '1.68.1'
+   s.dependency 'gRPC', '1.49.0'
+   s.dependency 'Protobuf', '3.22.0'
+   s.dependency 'gRPC-Core', '1.49.0'
+   s.dependency 'gRPC-ProtoRPC', '1.49.0'
+   s.dependency 'gRPC-RxLibrary', '1.49.0'
+   s.dependency '!ProtoCompiler', '3.21.5'
+   s.dependency '!ProtoCompiler-gRPCPlugin', '1.49.0'
    
    s.dependency 'TronWalletWeb3Swift', '1.0.0'
    s.dependency 'TronWalletABI', '1.0.0'
